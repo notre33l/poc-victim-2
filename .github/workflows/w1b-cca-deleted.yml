@@ -24,6 +24,6 @@ jobs:
           echo "comment body    : ${{ github.event.comment.body }}"
       - name: Run Claude Code (pinned 1d6de8c)
         id: claude
-        uses: anthropics/claude-code-action@1d6de8cb0c237e7c15e9e1bdf973826ebae490cc
+        uses: anthropics/claude-code-action@374f254f5efaf968abfe15d399fd90972e8138b9
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
