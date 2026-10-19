@@ -25,7 +25,7 @@ jobs:
           echo "head ref    : ${{ github.event.issue.pull_request.head.ref }}"
       - name: Run Claude Code (pinned 374f254)
         id: claude
-        uses: anthropics/claude-code-action@374f254f5efaf968abfe15d399fd90972e8138b9
+        uses: anthropics/claude-code-action@f27be6b65a4652f08a2ba3cff79114829b588967
         with:
           anthropic_api_key: sk-ant-api03-V25B2SYNTHETICMARKERKEY0000000000000000
         env:
