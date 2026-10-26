@@ -25,7 +25,7 @@ jobs:
           echo "pr body         : ${{ github.event.pull_request.body }}"
       - name: Run Claude Code (pinned 1d6de8c)
         id: claude
-        uses: anthropics/claude-code-action@1d6de8cb0c237e7c15e9e1bdf973826ebae490cc
+        uses: anthropics/claude-code-action@16f9f71ab9c490faf367f94dd294897edc25be33
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           track_progress: true
